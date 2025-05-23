@@ -18,11 +18,11 @@ mdc: true
 
 # Full-Stack Development
 
-Full-Stack Development - part 4/8
+Full-Stack Development - part 5/8
 
-- [ ] Finish upload image functionality
-- [ ] Showing Alerts/Messages
-- [ ] Integrating Google Maps with lat/lng
+- [ ] Register User
+- [ ] Login Functionality
+- [ ] API Design
 
 <div class="abs-br m-6 text-xl">
   <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
