@@ -40,18 +40,9 @@ transition: slide-left
 # Recap
 
 - Foodtruck template Repo: https://github.com/avcoder/foodtruck-template
-- last we left off, we were building functionality to upload images
 - Q: For mid-term, can I do a [whatever] app instead of a note-taking app
 - A: It can only be a note-taking app.
-- Lab next week Wed. Add a new tech to your resume by doing the "Getting Started" Docs from:
-  - [Socket io](https://socket.io/get-started/chat)
-  - [Snipcart](https://docs.snipcart.com/v3/)
-  - [Nest JS](https://docs.nestjs.com/first-steps)
-  - [Netlify Serverless Functions](https://docs.netlify.com/functions/get-started/?fn-language=js)
-  - [GraphQL](https://graphql.org/graphql-js/)
-  - [Jest](https://jestjs.io/docs/getting-started)
-  - [Playwright](https://playwright.dev/docs/intro)
-
+- Lab tmrw
 
 ---
 transition: slide-left
@@ -158,8 +149,16 @@ transition: slide-left
 transition: slide-left
 ---
 
-# Homework
+# Lab tomorrow
 
-- Start working on your midterm note-taking app
-- Exercise: Do a basic [recipe app](https://courses.circuitstream.com/d2l/le/lessons/9514/topics/49836)
-- Exercise: Do a [book inventory app](https://courses.circuitstream.com/d2l/le/lessons/9514/topics/49838)
+Do at least 1 "Getting Started" from:
+  - [Socket io](https://socket.io/get-started/chat)
+  - [AI LLM chat model](https://js.langchain.com/docs/tutorials/llm_chain)
+  - [Snipcart](https://docs.snipcart.com/v3/)
+  - [Nest JS](https://docs.nestjs.com/first-steps)
+  - [Next JS](https://nextjs.org/docs/app/getting-started/installation)
+  - [Netlify Serverless Functions](https://docs.netlify.com/functions/get-started/?fn-language=js)
+  - [Go](https://go.dev/doc/tutorial/getting-started)
+  - [GraphQL](https://graphql.org/graphql-js/)
+  - [Electron](https://www.electronjs.org/docs/latest/tutorial/tutorial-first-app)
+  - [Astro](https://docs.astro.build/en/tutorial/0-introduction/)
