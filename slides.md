@@ -150,8 +150,8 @@ transition: slide-left
 ---
 
 # Lab tomorrow
-Do at least 1 "Getting Started" from:
 
+Do at least 1 "Getting Started" from:
   - [Socket io](https://socket.io/get-started/chat)
   - [AI LLM chat model](https://js.langchain.com/docs/tutorials/llm_chain)
   - [Snipcart](https://docs.snipcart.com/v3/)
@@ -159,8 +159,6 @@ Do at least 1 "Getting Started" from:
   - [Next JS](https://nextjs.org/docs/app/getting-started/installation)
   - [Netlify Serverless Functions](https://docs.netlify.com/functions/get-started/?fn-language=js)
   - [Go](https://go.dev/doc/tutorial/getting-started)
-  - [PostGreSQL](https://neon.tech/postgresql/postgresql-getting-started)
-  - [PHP](https://www.php.net/manual/en/tutorial.php)
   - [GraphQL](https://graphql.org/graphql-js/)
   - [Electron](https://www.electronjs.org/docs/latest/tutorial/tutorial-first-app)
   - [Astro](https://docs.astro.build/en/tutorial/0-introduction/)
