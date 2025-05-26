@@ -147,7 +147,7 @@ layout: two-cols
 ---
 
 # Lab tomorrow
-Do at least 1 "Getting Started" from here:
+Option: Choose a Getting Started Activity, OR ask questions AMA (ex: error handling review)
 
 Do at least 1 "Getting Started" from:
   - [Socket io](https://socket.io/get-started/chat)
