@@ -85,25 +85,17 @@ class: text-left
 transition: slide-left
 ---
 
-# Show a google map based off lat/lng coordinates
+# Show
 
-- We need to adjust our schema to include location etc.
-- let's move our choices to truckController as a const
-- adjust our addTruck form and editTruck form to include location
-- add autocomplete functionality for address
-- add slug page
-- make static google map based off our lat/lng
-- ensure slug is unique
+- ensure 
 
 ---
 transition: slide-left
 ---
 
-# Create tags page
+# Create 
 
-- create `getTags` route
-- add `.getAllTags()` method to Truck schema
-- make clicking each tag filter and display corresponding food trucks with tag
+- create 
 
 ---
 transition: slide-left
