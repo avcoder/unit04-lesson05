@@ -46,6 +46,7 @@ transition: slide-left
 - Today will show both mid-term interpretations:
    1. users can see/edit their own notes
    2. users can see other users notes but can only edit their own 
+- Moving API Design to lesson 08
 
 ---
 transition: slide-left
