@@ -51,9 +51,50 @@ transition: slide-left
 transition: slide-left
 ---
 
-# test
+# Register (pg.1)
 
-- f
+- I've already included register.ejs and login.ejs in foodtruck-tempate repo
+- Add route in router.js to eventually display register.ejs
+  ```js
+  router.get("/register", userController.registerForm);
+  ```
+- in /controllers/userController.js
+  ```js
+  const registerForm = async (req, res) => {
+    res.render("register", { title: "Register" });
+  };
+  ```
+- Examine register.ejs form verify action and method
+
+---
+transition: slide-left
+---
+
+# Register (pg.2)
+
+- Add POST /register route to router.js
+  ```js
+  router.post("/register", userController.register);
+  ```
+- in /controllers/userController
+  ```js
+  const register = async (req, res) => {
+    console.log("in register");
+    const callback = (err, newUser) => {
+      if (err) {
+        res.redirect("/register");
+      } else {
+        res.redirect("/login");
+      }
+    };
+
+    userHandler.register({
+      username: req.body.username,
+      password: req.body.password,
+      callback,
+    });
+  };
+  ```
 
 ---
 layout: image-right
