@@ -79,8 +79,9 @@ transition: slide-left
   ```
 - in /controllers/userController
   ```js
+  import userHandler from "../handlers/userHandler.js";
+
   const register = async (req, res) => {
-    console.log("in register");
     const callback = (err, newUser) => {
       if (err) {
         res.redirect("/register");
@@ -95,6 +96,49 @@ transition: slide-left
       callback,
     });
   };
+  ```
+
+---
+transition: slide-left
+---
+
+# Register (pg.2)
+
+- in /handlers/userHandler.js
+  ```js
+  import User from "../models/userModel.js";
+
+  const register = async ({ username, password, callback }) => {
+    await User.register(new User({ username }), password, callback);
+  };
+
+  export default {
+    register,
+  };
+  ```
+
+---
+transition: slide-left
+---
+
+# Register (pg.3)
+
+- in /models/userModel.js
+  ```js
+  import mongoose from "mongoose";
+  import validator from "validator";
+  import plm from "passport-local-mongoose";
+
+  const userSchema = mongoose.Schema({
+    username: {
+      type: String,
+      required: [true, "Please provide an email address"],
+      unique: true,
+      lowercase: true,
+      trim: true,
+      validate: [validator.isEmail, "Invalid email"],
+    },
+  });
   ```
 
 ---
