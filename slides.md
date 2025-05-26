@@ -40,6 +40,8 @@ transition: slide-left
 # Recap
 
 - Foodtruck template Repo: https://github.com/avcoder/foodtruck-template
+   - we've done CRUD, and showing messages
+   - today we'll implement register and login 
 - Reminder: Lab tomorrow
 - Today will show both mid-term interpretations:
    1. users can see/edit their own notes
