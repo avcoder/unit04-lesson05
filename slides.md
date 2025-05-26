@@ -22,7 +22,7 @@ Full-Stack Development - part 5/8
 
 - [ ] Register User
 - [ ] Login Functionality
-- [ ] Add User to Foodtruck Relationship
+- [ ] Prevent routes/displays based on authenticated users
 
 <div class="abs-br m-6 text-xl">
   <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
