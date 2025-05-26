@@ -40,58 +40,18 @@ transition: slide-left
 # Recap
 
 - Foodtruck template Repo: https://github.com/avcoder/foodtruck-template
-- Q: For mid-term, can I do a [whatever] app instead of a note-taking app
-- A: It can only be a note-taking app.
-- Lab tmrw
+- Reminder: Lab tomorrow
+- Today will show both mid-term interpretations:
+   1. users can see/edit their own notes
+   2. users can see other users notes but can only edit their own 
 
 ---
 transition: slide-left
 ---
 
-# Serve static files
+# test
 
-Add upload photo functionality
-
-- `npm i jimp multer uuid`
-- update truckModel.js to include `photo: String,`
-- update router.js to include an `truckController.upload` and `truckController.resize`
-- in truckController.js, create `upload` and `resize` functions
-
----
-transition: slide-left
----
-
-# Show Alerts via connect-flash
-
-- connect-flash is used to show success messages, error messages, info etc.
-- How does it work?
-  - if you wish to pass any message, use: `req.flash()`
-  - pass in a type of message, and an actual message
-  - connect-flash will then stick that info in the next request object (via sessions)
-  - That info will then clean up after itself after that 1st request
-  
----
-transition: slide-left
----
-
-# Exercise: Show Alerts via connect-flash
-
-- Goal: modify the code to show success and error messages where appropriate.  Use bootstrap [Alert component](https://getbootstrap.com/docs/5.3/components/alerts/) to do so and modify any ejs pages to display them.
-
-- in app.js:
-  ```js
-  import flash from "connect-flash";
-  import { notFound, flashValidationErrors } from "./handlers/errorHandlers.js";
-
-  app.use(flash());
-
-  res.locals.flashes = req.flash(); // flash messages (ex: succes`s, error, info)
-
-  app.use(flashValidationErrors); // flash validation errors
-  ```
-- create `flashValidationErrors()` in errorHandlers.js
-- in truckController.js, insert `req.flash("success", `/${truck.slug} added successfully!`
-
+- f
 
 ---
 layout: image-right
