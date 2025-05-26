@@ -22,7 +22,7 @@ Full-Stack Development - part 5/8
 
 - [ ] Register User
 - [ ] Login Functionality
-- [ ] API Design
+- [ ] Add User to Foodtruck Relationship
 
 <div class="abs-br m-6 text-xl">
   <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
@@ -147,9 +147,11 @@ transition: slide-left
 
 ---
 transition: slide-left
+layout: two-cols
 ---
 
 # Lab tomorrow
+Do at least 1 "Getting Started" from here:
 
 Do at least 1 "Getting Started" from:
   - [Socket io](https://socket.io/get-started/chat)
@@ -158,7 +160,13 @@ Do at least 1 "Getting Started" from:
   - [Nest JS](https://docs.nestjs.com/first-steps)
   - [Next JS](https://nextjs.org/docs/app/getting-started/installation)
   - [Netlify Serverless Functions](https://docs.netlify.com/functions/get-started/?fn-language=js)
+
+::right::
+
+# 
   - [Go](https://go.dev/doc/tutorial/getting-started)
   - [GraphQL](https://graphql.org/graphql-js/)
   - [Electron](https://www.electronjs.org/docs/latest/tutorial/tutorial-first-app)
   - [Astro](https://docs.astro.build/en/tutorial/0-introduction/)
+  - [Twilio](https://www.twilio.com/docs/messaging/quickstart)
+  - [Tauri](https://tauri.app/start/)
