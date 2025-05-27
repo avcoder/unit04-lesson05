@@ -376,4 +376,5 @@ Do at least 1 "Getting Started" from:
   - [Tauri](https://tauri.app/start/)
   - [11ty](https://www.11ty.dev/docs/)
   - [Ruby on Rails](https://guides.rubyonrails.org/getting_started.html)
+  - [Vue.js](https://vuejs.org/guide/introduction)
   - or any other tech you wish to learn
