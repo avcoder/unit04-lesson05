@@ -252,8 +252,8 @@ transition: slide-left
 ---
 layout: image-right
 transition: slide-left
-image: /assets/matt.png
-backgroundSize: 400px 320px
+image: /assets/dodds.png
+backgroundSize: 400px 250px
 class: text-left
 ---
 
@@ -261,10 +261,9 @@ class: text-left
 
 🍦 Cool Tips, Trends and Resources:
 
-- 🧼 [Background Removal Tool](https://huggingface.co/spaces/Xenova/remove-background-web)
-- 🎒 [Self-hosted Apps](https://selfhosted.libhunt.com/)
-- 😵‍💫 [Brutalist Report](https://brutalist.report/)
-- 📝 [Markdown Notes](https://github.com/orgs/community/discussions/16925)
+- 🎂 [Happy 30th JS](https://deno.com/blog/history-of-javascript)
+- ⚙️ [How Promises Work](https://www.deepintodev.com/blog/how-promises-work-in-javascript)
+- 🛑 [Stop Lying to your Users](https://www.epicweb.dev/stop-lying-to-your-users)
 
 <br>
 <hr>
