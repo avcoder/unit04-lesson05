@@ -345,6 +345,8 @@ transition: slide-left
 # Ensuring Validation Alerts work
 
 - Let's verify that any validation errors are showing as alerts
+- If we have remaining time, you can start/continue working on your midterm.
+   - Feel free to ask me to take a look/ask any questions
 
 ---
 transition: slide-left
