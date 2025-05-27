@@ -305,7 +305,33 @@ transition: slide-left
 
 # Protect Routes (pg.2) 
 
-- create 
+- Hide any HTML/EJS content via:
+  ```html
+  <% if (user) { %>
+    <li class="nav-item">
+  <% } %>
+
+  <% if (user) { %>
+    <th scope="col">Edit</th>
+    <th scope="col">Delete</th>
+  <% } %>
+
+  <% user && u.menu.map( menuItem => { %>
+    <li class="nav-item">
+    etc...
+  <% } %>
+  ```
+- Where did user come from? (see app.js under res.locals section)
+
+---
+transition: slide-left
+---
+
+# Exercise: Protect any content
+
+- Go through your app and protect any html/ejs content from being viewed by unauthenticated users
+  - Use previous slide to help
+  - Can use foodtruck app, or your own note-taking app
 
 ---
 transition: slide-left
