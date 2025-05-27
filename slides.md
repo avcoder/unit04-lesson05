@@ -374,4 +374,6 @@ Do at least 1 "Getting Started" from:
   - [Astro](https://docs.astro.build/en/tutorial/0-introduction/)
   - [Twilio](https://www.twilio.com/docs/messaging/quickstart)
   - [Tauri](https://tauri.app/start/)
+  - [11ty](https://www.11ty.dev/docs/)
+  - [Ruby on Rails](https://guides.rubyonrails.org/getting_started.html)
   - or any other tech you wish to learn
