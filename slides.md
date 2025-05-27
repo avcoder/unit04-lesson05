@@ -368,11 +368,11 @@ Do at least 1 "Getting Started" from:
   - [Puppeteer](https://pptr.dev/guides/what-is-puppeteer)
   - [Go](https://go.dev/doc/tutorial/getting-started)
   - [Ruby on Rails](https://guides.rubyonrails.org/getting_started.html)
+  - [GraphQL](https://graphql.org/graphql-js/)
 
 ::right::
 
 # 
-  - [GraphQL](https://graphql.org/graphql-js/)
   - [Electron](https://www.electronjs.org/docs/latest/tutorial/tutorial-first-app)
   - [Astro](https://docs.astro.build/en/tutorial/0-introduction/)
   - [Twilio](https://www.twilio.com/docs/messaging/quickstart)
@@ -383,4 +383,7 @@ Do at least 1 "Getting Started" from:
   - [Vue.js](https://vuejs.org/guide/introduction)
   - [Svelte](https://svelte.dev/tutorial/svelte/welcome-to-svelte)
   - [Angular](https://angular.dev/tutorials)
+  - [GSAP](https://gsap.com/resources/get-started)
+  - [Three.js](https://threejs.org/manual/#en/creating-a-scene)
+  - [D3](https://d3js.org/getting-started)
   - or any other tech you wish to learn
