@@ -314,6 +314,7 @@ transition: slide-left
   ```html
   <% if (user) { %>
     <li class="nav-item">
+      etc...
   <% } %>
 
   <% if (user) { %>
