@@ -55,7 +55,7 @@ transition: slide-left
 
 # Register (pg.1)
 
-- I've already included register.ejs and login.ejs in foodtruck-tempate repo
+- I've already included register.ejs in foodtruck-tempate repo
 - Add route in router.js to eventually display register.ejs
   ```js
   router.get("/register", userController.registerForm);
@@ -140,6 +140,51 @@ transition: slide-left
       validate: [validator.isEmail, "Invalid email"],
     },
   });
+  ```
+
+
+---
+transition: slide-left
+---
+
+# Login (pg.1)
+
+- I've already included login.ejs in foodtruck-tempate repo
+- Add route in router.js to eventually display login.ejs
+  ```js
+  router.get("/login", userController.loginForm);
+  ```
+- in /controllers/userController.js
+  ```js
+  const loginForm = async (req, res) => {
+    res.render("login", { title: "Login" });
+  };
+  ```
+- Examine login.ejs form verify action and method
+
+---
+transition: slide-left
+---
+
+# Login (pg.2)
+
+- Add POST /login route to router.js
+  ```js
+  router.post("/login", authController.login);
+  ```
+- create /controllers/authController.js
+  ```js
+  import passport from "passport";
+
+  const login = passport.authenticate("local", {
+    successRedirect: "/",
+    failureRedirect: "/login",
+    failureMessage: "⚠️ Invalid Login",
+  });
+
+  export default {
+    login,
+  };
   ```
 
 ---
