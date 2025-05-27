@@ -367,6 +367,7 @@ Do at least 1 "Getting Started" from:
   - [Netlify Serverless Functions](https://docs.netlify.com/functions/get-started/?fn-language=js)
   - [Puppeteer](https://pptr.dev/guides/what-is-puppeteer)
   - [Go](https://go.dev/doc/tutorial/getting-started)
+  - [Ruby on Rails](https://guides.rubyonrails.org/getting_started.html)
 
 ::right::
 
@@ -377,7 +378,8 @@ Do at least 1 "Getting Started" from:
   - [Twilio](https://www.twilio.com/docs/messaging/quickstart)
   - [Tauri](https://tauri.app/start/)
   - [11ty](https://www.11ty.dev/docs/)
-  - [Ruby on Rails](https://guides.rubyonrails.org/getting_started.html)
+  - [Tailwind CSS](https://tailwindcss.com/docs/installation/using-vite)
+  - [Typescript](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
   - [Vue.js](https://vuejs.org/guide/introduction)
   - [Svelte](https://svelte.dev/tutorial/svelte/welcome-to-svelte)
   - [Angular](https://angular.dev/tutorials)
