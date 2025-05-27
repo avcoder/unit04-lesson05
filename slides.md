@@ -50,7 +50,7 @@ transition: slide-left
 - Midterm Q: Should I deploy my app on render.com or elsewhere?
    - A: No deployment necessary for midterm (we have a Deployment unit for that)
    - Just submit your Github repo including README.md, email me privately your .env file
-   - I will `npm i` on my ends
+   - I will git clone your repo then `npm i` on my ends
 - Moving API Design to lesson 08
 
 ---
