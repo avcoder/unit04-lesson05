@@ -335,6 +335,14 @@ transition: slide-left
 
 ---
 transition: slide-left
+---
+
+# Ensuring Validation Alerts work
+
+- Let's verify that any validation errors are showing as alerts
+
+---
+transition: slide-left
 layout: two-cols
 ---
 
