@@ -22,7 +22,7 @@ Full-Stack Development - part 5/8
 
 - [ ] Register User
 - [ ] Login Functionality
-- [ ] Prevent routes/displays based on authenticated users
+- [ ] Prevent routes/displays for unauthenticated users
 
 <div class="abs-br m-6 text-xl">
   <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
@@ -41,7 +41,7 @@ transition: slide-left
 
 - Foodtruck template Repo: https://github.com/avcoder/foodtruck-template
    - we've done CRUD, and showing messages
-   - today we'll implement register and login 
+   - today we'll implement register and login; protecting our routes if user is not authenticated
 - Reminder: Lab tomorrow
 - Today will show both mid-term interpretations:
    1. users can see/edit their own notes
