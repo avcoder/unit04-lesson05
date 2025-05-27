@@ -59,7 +59,7 @@ transition: slide-left
 
 # Register (pg.1)
 
-- I've already included register.ejs in foodtruck-tempate repo
+- I've already included register.ejs in foodtruck-template repo
 - Add route in router.js to eventually display register.ejs
   ```js
   router.get("/register", userController.registerForm);
