@@ -142,7 +142,45 @@ transition: slide-left
   });
   ```
 
+---
+transition: slide-left
+---
 
+# Register (pg.4)
+
+- `router.post("/register", userController.validateRegister, userController.register);`
+- in userController.js
+  ```js
+  const validateRegister = [
+    body("username").notEmpty().withMessage("Email address is required"),
+    body("username").isEmail().withMessage("Please provide a valid email"),
+    body("password")
+      .isLength({ min: 6 })
+      .withMessage("Password must be at least 6 characters"),
+    body("confirm-password")
+      .isLength({ min: 6 })
+      .withMessage("Confirm Password must be at least 6 characters"),
+    body("confirm-password").custom((value, { req }) => { return value === req.body.password; })
+      .withMessage("Password does not match Confirm Password"),
+    (req, res, next) => {
+      const errors = validationResult(req);
+      if (!errors.isEmpty()) {
+        req.flash("danger", errors.errors.map((err) => err.msg).join(". "));
+        res.render("register", { title: "Register", flashes: req.flash() });
+      } else {
+        next();
+      }
+    },
+  ];
+  ```
+
+<!-- 
+- app.js, after `res.locals.currentPath = req.path`
+- const errors = req.flash("error");
+- if (errors.length) {
+-   req.flash("danger", errors)
+- }
+-->
 ---
 transition: slide-left
 ---
@@ -186,6 +224,30 @@ transition: slide-left
     login,
   };
   ```
+- we've already implemented passport package in our app.js, passport.js
+
+---
+transition: slide-left
+---
+
+# Logout
+
+- in router.js
+  ```js
+  router.get("/logout", authController.logout);
+  ```
+- in authController.js
+  ```js
+  const logout = (req, res, next) => {
+    req.logout((err) => {
+      if (err) {
+        return next(err);
+      }
+    });
+    req.flash("success", "👋 You have logged out");
+    res.redirect("/");
+  };
+  ```
 
 ---
 layout: image-right
@@ -219,15 +281,29 @@ class: text-left
 transition: slide-left
 ---
 
-# Show
+# Protect Routes (pg.1)
 
-- ensure 
+- Now that we have login and register working, we can now protect our routes, edit/delete buttons, from being viewed by unauthenticated users 
+- in router.js
+  ```js
+  router.get("/trucks", authController.isAuthenticated, catchErrors(truckController.getTrucks));
+
+  router.get("/add", authController.isAuthenticated, truckController.addTruck);
+
+  router.get("/trucks/:id/edit", authController.isAuthenticated, catchErrors(truckController.editTruck));
+
+  router.post("/trucks/:id/edit",  authController.isAuthenticated, ...
+
+  router.delete("/trucks/:id", authController.isAuthenticated, truckController.deleteTruck);
+
+  router.get("/logout", authController.isAuthenticated, authController.logout);
+  ```
 
 ---
 transition: slide-left
 ---
 
-# Create 
+# Protect Routes (pg.2) 
 
 - create 
 
