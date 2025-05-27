@@ -47,6 +47,9 @@ transition: slide-left
    1. users can see/edit their own notes
    2. users can see other users notes but can only edit their own 
 - after today's class you'll have everything you need for midterm
+- Midterm Q: Should I deploy my app on render.com or elsewhere?
+   - A: No deployment necessary for midterm (we have a Deployment unit for that)
+   - Just submit your Github repo including README.md, email me privately your .env file
 - Moving API Design to lesson 08
 
 ---
