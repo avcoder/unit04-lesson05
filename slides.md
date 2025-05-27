@@ -263,6 +263,8 @@ class: text-left
 
 - 🎂 [Happy 30th JS](https://deno.com/blog/history-of-javascript)
 - ⚙️ [How Promises Work](https://www.deepintodev.com/blog/how-promises-work-in-javascript)
+- 👉 [JS this](https://piccalil.li/blog/javascript-when-is-this/)
+- 🥊 [Fighting the JS trademark](https://deno.com/blog/deno-v-oracle3)
 - 🛑 [Stop Lying to your Users](https://www.epicweb.dev/stop-lying-to-your-users)
 
 <br>
