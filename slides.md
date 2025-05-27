@@ -376,7 +376,6 @@ Do at least 1 "Getting Started" from:
   - [Electron](https://www.electronjs.org/docs/latest/tutorial/tutorial-first-app)
   - [Astro](https://docs.astro.build/en/tutorial/0-introduction/)
   - [Twilio](https://www.twilio.com/docs/messaging/quickstart)
-  - [Tauri](https://tauri.app/start/)
   - [11ty](https://www.11ty.dev/docs/)
   - [Tailwind CSS](https://tailwindcss.com/docs/installation/using-vite)
   - [Typescript](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
