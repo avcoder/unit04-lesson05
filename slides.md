@@ -365,11 +365,12 @@ Do at least 1 "Getting Started" from:
   - [Nest JS](https://docs.nestjs.com/first-steps)
   - [Next JS](https://nextjs.org/docs/app/getting-started/installation)
   - [Netlify Serverless Functions](https://docs.netlify.com/functions/get-started/?fn-language=js)
+  - [Puppeteer](https://pptr.dev/guides/what-is-puppeteer)
+  - [Go](https://go.dev/doc/tutorial/getting-started)
 
 ::right::
 
 # 
-  - [Go](https://go.dev/doc/tutorial/getting-started)
   - [GraphQL](https://graphql.org/graphql-js/)
   - [Electron](https://www.electronjs.org/docs/latest/tutorial/tutorial-first-app)
   - [Astro](https://docs.astro.build/en/tutorial/0-introduction/)
@@ -378,4 +379,6 @@ Do at least 1 "Getting Started" from:
   - [11ty](https://www.11ty.dev/docs/)
   - [Ruby on Rails](https://guides.rubyonrails.org/getting_started.html)
   - [Vue.js](https://vuejs.org/guide/introduction)
+  - [Svelte](https://svelte.dev/tutorial/svelte/welcome-to-svelte)
+  - [Angular](https://angular.dev/tutorials)
   - or any other tech you wish to learn
