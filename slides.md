@@ -347,6 +347,7 @@ transition: slide-left
 layout: two-cols
 ---
 
+
 # Lab tomorrow
 Option: Choose a Getting Started Activity, OR ask questions AMA (ex: error handling review)
 
